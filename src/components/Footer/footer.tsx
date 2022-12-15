@@ -1,6 +1,5 @@
 import React from "react";
 import * as S from "./styles";
-
 import { FaFacebookF} from 'react-icons/fa'
 import { FaInstagram} from 'react-icons/fa'
 import { FaWhatsapp} from 'react-icons/fa'
