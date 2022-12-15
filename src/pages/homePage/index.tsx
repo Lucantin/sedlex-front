@@ -6,5 +6,6 @@ export const Home = () => {
     <S.Container>
       <S.Title> Hello world</S.Title>
     </S.Container>
+    
   );
 };
