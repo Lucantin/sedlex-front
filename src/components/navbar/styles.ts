@@ -39,6 +39,7 @@ export const DirectLink = styled.p`
   font-size: 20px;
   width: 120px;
   text-align: center;
+  font-weight: bold;
 
   &::after {
     content: "";
