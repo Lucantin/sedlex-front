@@ -7,45 +7,41 @@ import * as S from "./styles";
 export const Footer = () => {
   return (
     <S.Container>
-      <S.Sobre>
-        <S.TitleSobre>
-          {" "}
-          <h1>Sobre a Sedlex</h1>
-        </S.TitleSobre>
-        <S.SobreMim>
-          <h2>Blalalaalalalalalallaal</h2>
-        </S.SobreMim>
-      </S.Sobre>
 
-      <S.Contact>
-        {" "}
-        <S.A>Contatos</S.A>
-        <S.RedeSocial>
-          <S.A href="http://www.facebook.com">
-            {" "}
-            <FaFacebookF />{" "}
-          </S.A>
-        </S.RedeSocial>
-        <S.RedeSocial>
-          <S.A href="https://www.instagram.com/">
-            <FaInstagram />
-          </S.A>
-        </S.RedeSocial>
-        <S.RedeSocial>
-          <S.A href="https://www.whatsapp.com/?lang=pt_br">
-            <FaWhatsapp />
-          </S.A>
-        </S.RedeSocial>
-        <S.RedeSocial>
-          <S.A>Telefone</S.A>
-        </S.RedeSocial>
-        {/* <S.Item> */}
-        {/* <S.DirectLink>Sistemas para internet</S.DirectLink> */}
-        {/* </S.Item> */}
-      </S.Contact>
+
+      {/* <S.WrapperImage>
+        <S.Imagem src={require("../../images/LogoBranco.png")} alt="Logo" />
+      </S.WrapperImage> */}
+
+
+       <S.General>
+        <S.Title> Sobre a Sedlex</S.Title>
+        <S.AboutMe>
+        A Sedlex Manutenções é uma empresa de engenharia que atua na prestação de serviços de manutenções e construções em geral. Oferece alta qualidade técnica e confiabilidade.
+        </S.AboutMe>
+      </S.General>
+
+
+      <S.General>
       <S.CopyRight>Copyright © 2022 Sedlex.</S.CopyRight>
+      </S.General>
 
-      {/* não sei se oq ta no copy right está certo, tem que pesquisar */}
+
+      <S.General>
+      <S.Title>Contatos</S.Title>
+        <S.SubTitle>
+          <S.Icon href="http://www.facebook.com"  target="_blank"><FaFacebookF /></S.Icon>
+          <S.Icon href="https://www.instagram.com/"  target="_blank">
+            <FaInstagram />
+          </S.Icon>
+          <S.Icon href="https://www.whatsapp.com/?lang=pt_br" target="_blank">
+            <FaWhatsapp />
+          </S.Icon>
+          </S.SubTitle>
+          <S.Telephone>Telefone (11)987878788</S.Telephone>
+          
+
+      </S.General>
     </S.Container>
   );
 };
