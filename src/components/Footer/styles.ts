@@ -3,78 +3,88 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   justify-content: center;
-  padding: 1em;
   background-color: #1184E0;
   position: fixed;
-  left: 0;
   bottom: 0;
-  width: 100%;
+  left: 0;
+  width:100% ;
+  box-shadow: -1em 0 .4em rgba(0, 0, 0, 0.4);
 `;
 
-export const Contact = styled.ul`
-  display: flex;
-  justify-content: center;
-color: #FFF;
-align-content: space-around;
-font-size :25px;
-padding: 0 ;
-`;
-
-
-export const A = styled.a`
-text-decoration: none ;
-color: #FFF;
-opacity:0.5 ;
-`;
-
-// export const Img = styled.li`
-//   display:flex ;
-//   align-items: center;
-//   font-size :30px;
-  
+// export const WrapperImage = styled.div`
+//   display: flex;
+//   justify-content: flex-start;
+//   margin: 1em;
 // `;
-// usar essa const quando colocar o icon (acho que as coisas de dentro nao influenciam mas olhar mesmo assim)
 
 
+// export const Imagem = styled.img`
+//   width: 150px;
+//   height: 50px;
+// `;
 
-export const RedeSocial = styled.li`
-    font-size :30px;
+export const General = styled.div`
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
-    text-decoration: none ;
-`;
-
-export const TitleSobre = styled.h1`
-/* font-size :20px;
     color: #FFF;
-    margin-bottom: 2.5rem;
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
     padding: 1rem;
-    opacity:0.5 ; */
+    width: 250px ;
+    font-size: 15px ;
+    align-items: center;
+    margin: 0rem auto;
 `;
 
-export const SobreMim = styled.h2`
-/* font-size :12px;
-display: flex; */
 
+export const Title = styled.h1`
+display: flex ;
+font-size: 20px ;
+`;
+
+
+export const AboutMe = styled.p`
+display:flex ;
+margin-top: 1em ;
+text-align: center;
+opacity:0.5 ;
+font-size: 15px ;
 `;
 
 
 export const CopyRight = styled.p`
 color: #FFF;
 opacity:0.3 ;
+position: relative;
+top: 125px;
+font-size: 15px ;
 `;
 
-export const Sobre = styled.div`
-    color: #FFF;
-    margin-bottom: 1em;
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
+
+export const Icon = styled.a`
+  display:flex ;
+  text-decoration: none ;
+  opacity:0.5 ;
+  font-size :21px;
+  margin: 7px ;
 `;
+
+
+export const SubTitle = styled.li`
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+    text-decoration: none ; */
+
+display:flex ;
+margin-top: 1em ;
+`;
+
+
+ export const Telephone = styled.p`
+ display:flex ;
+  text-decoration: none ;
+  opacity:0.5 ;
+  margin-top: 1em ;
+  font-size: 15px ;
+  
+ `;
