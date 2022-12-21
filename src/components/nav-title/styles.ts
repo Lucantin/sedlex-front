@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const WrapperInfo = styled.div`
   display: flex;
   align-items: center;
-  margin: 0rem auto;
+  margin-right: 8%;
 `;
 
 export const List = styled.ul`
@@ -11,7 +11,6 @@ export const List = styled.ul`
 `;
 
 export const Item = styled.li`
-  align-items: center;
   display: flex;
   gap: 30px;
 `;
