@@ -1,28 +1,28 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import * as S from './styles'
+
+import React, { useState } from "react";
+import * as S from "./styles";
+import Hamburger from "hamburger-react";
+import { NavTitle } from "../nav-title";
 
 export const Navbar = () => {
+  const [sideBar, setSideBar] = useState(false);
+
+  const showSideBar = () => setSideBar(!sideBar);
+
   return (
     <S.Container>
       <S.WrapperImage>
-        <S.Imagem src={require('../../images/LogoBranco.png')} alt="Logo" />
+        <S.Image src={require("../../images/LogoBranco.png")} alt="Logo" />
       </S.WrapperImage>
-      <S.WrapperInfo>
-        <S.List>
-          <S.Item>
-            <Link to="/" style={{ textDecoration: 'none' }}>
-              <S.DirectLink>Home</S.DirectLink>
-            </Link>
-            <Link to="/" style={{ textDecoration: 'none' }}>
-              <S.DirectLink>Sobre Nós</S.DirectLink>
-            </Link>
-            <Link to="/" style={{ textDecoration: 'none' }}>
-              <S.DirectLink>Contato</S.DirectLink>
-            </Link>
-          </S.Item>
-        </S.List>
-      </S.WrapperInfo>
+      <S.WrapperBurguer>
+        <Hamburger
+          direction="left"
+          color="white"
+          size={27}
+          onToggle={showSideBar}
+        />
+        {sideBar && <NavTitle />}
+      </S.WrapperBurguer>
     </S.Container>
   )
 }

@@ -2,6 +2,7 @@ import React from "react";
 import { Route, BrowserRouter, Routes as Router } from "react-router-dom";
 import { Footer } from "../components/footer";
 import { Navbar } from "../components/navbar";
+import { AboutUs } from "../pages/aboutUs";
 import { Home } from "../pages/homePage";
 
 const Routes = () => {
@@ -10,6 +11,7 @@ const Routes = () => {
       <Navbar />
       <Router>
         <Route path="/" exact element={<Home />} />
+        <Route path="/aboutus" exact element={<AboutUs />} />
       </Router>
       <Footer />
     </BrowserRouter>
