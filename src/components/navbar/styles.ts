@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.div`
   display: flex;
@@ -7,32 +7,32 @@ export const Container = styled.div`
   padding: 2em;
   background-color: #1184e0;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
-`;
+`
 
 export const WrapperImage = styled.div`
   display: flex;
   justify-content: flex-start;
-`;
+`
 
 export const Imagem = styled.img`
   width: 150px;
-`;
+`
 
 export const WrapperInfo = styled.div`
   display: flex;
   align-items: center;
   margin: 0rem auto;
-`;
+`
 
 export const List = styled.ul`
   list-style: none;
-`;
+`
 
 export const Item = styled.li`
   align-items: center;
   display: flex;
   gap: 30px;
-`;
+`
 
 export const DirectLink = styled.p`
   color: white;
@@ -42,7 +42,7 @@ export const DirectLink = styled.p`
   font-weight: bold;
 
   &::after {
-    content: "";
+    content: '';
     display: block;
     margin-top: 10px;
     margin-left: auto;
@@ -56,4 +56,4 @@ export const DirectLink = styled.p`
     width: 100%;
     transition: all 0.4s;
   }
-`;
+`
