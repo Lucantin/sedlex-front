@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 import * as S from "./styles";
 import Hamburger from "hamburger-react";
@@ -23,5 +24,5 @@ export const Navbar = () => {
         {sideBar && <NavTitle />}
       </S.WrapperBurguer>
     </S.Container>
-  );
-};
+  )
+}
