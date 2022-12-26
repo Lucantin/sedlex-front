@@ -5,7 +5,9 @@ export const Container = styled.div`
   flex-direction: row;
   padding: 2em;
   background-color: #1184e0;
+  width: 100%;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  position: fixed;
 `;
 
 export const WrapperImage = styled.div`
