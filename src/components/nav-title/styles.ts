@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const WrapperInfo = styled.div`
   display: flex;
   align-items: center;
-  margin-right: 8%;
+  padding-right: 10%;
 `;
 
 export const List = styled.ul`
