@@ -10,7 +10,7 @@ export const NavTitle = () => {
           <Link to="/" style={{ textDecoration: "none" }}>
             <S.DirectLink>Home</S.DirectLink>
           </Link>
-          <Link to="/" style={{ textDecoration: "none" }}>
+          <Link to="/aboutus" style={{ textDecoration: "none" }}>
             <S.DirectLink>Sobre Nós</S.DirectLink>
           </Link>
           <Link to="/" style={{ textDecoration: "none" }}>
