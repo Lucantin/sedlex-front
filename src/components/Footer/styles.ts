@@ -10,17 +10,6 @@ export const Container = styled.div`
   box-shadow: -1em 0 0.4em rgba(0, 0, 0, 0.4);
 `
 
-// export const WrapperImage = styled.div`
-//   display: flex;
-//   justify-content: flex-start;
-//   margin: 1em;
-// `;
-
-// export const Imagem = styled.img`
-//   width: 150px;
-//   height: 50px;
-// `;
-
 export const General = styled.div`
   display: flex;
   color: #fff;
@@ -60,15 +49,18 @@ export const Icon = styled.a`
   opacity: 0.5;
   font-size: 21px;
   margin: 7px;
+
+  &:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    color: #3b5998;
+  }
 `
 
-export const SubTitle = styled.li`
-  /* display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 1rem;
-    text-decoration: none ; */
+// cor facebook #3b5998
+// cor
 
+export const SubTitle = styled.li`
   display: flex;
   margin-top: 1em;
 `
