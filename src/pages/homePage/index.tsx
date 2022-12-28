@@ -6,9 +6,9 @@ export const Home = () => {
   return (
     <S.Container>
       <S.Start>
-        <S.Camera>
+        {/* <S.Camera>
           <GiCctvCamera />
-        </S.Camera>
+        </S.Camera> */}
         <S.GroupImage>
           <S.ImgStart src={require('../../images/loading.png')} alt="Logo" />
         </S.GroupImage>

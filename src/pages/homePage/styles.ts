@@ -64,6 +64,8 @@ export const TextStart = styled.p`
   font-size: 1rem;
   border-radius: 1rem;
   background-color: #000000;
+  margin-left: 1rem;
+  margin-right: 1rem;
   padding: 1rem;
   opacity: 0.33;
   max-width: 100%;
