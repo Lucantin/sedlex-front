@@ -2,8 +2,6 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
-  width: 100vw;
-  height: 100vh;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -28,13 +26,13 @@ export const WrapperImage = styled.div`
   left: 0;
   width: 100%;
   height: 100%;
-  padding: 10%;
 `;
 
 export const WrapperInformation = styled.div`
   display: flex;
   flex-direction: column;
-  background-color: rgba(136, 134, 135, 0.4);
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
   padding: 30px;
   margin-top: 5%;
 `;
@@ -44,4 +42,6 @@ export const Image = styled.img`
   display: flex;
 `;
 
-export const Content = styled.p``;
+export const Content = styled.p`
+  color: white;
+`;
