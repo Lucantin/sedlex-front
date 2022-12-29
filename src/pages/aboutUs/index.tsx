@@ -1,11 +1,14 @@
 import React from "react";
+import { CarouselImage } from "../../components/carousel-image";
+import { CarouselImage2 } from "../../components/carousel-image2";
+
 import * as S from "./styles";
 
 export const AboutUs = () => {
   return (
     <S.Container>
       <S.WrapperImage>
-        <S.Image src={require("../../images/loading.png")} alt="obra" />
+        <CarouselImage2 />
       </S.WrapperImage>
       <S.ContainerInformation>
         <S.WrapperInformation>
