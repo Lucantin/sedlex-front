@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
@@ -8,7 +8,7 @@ export const Container = styled.div`
   left: 0;
   width: 100%;
   box-shadow: -1em 0 0.4em rgba(0, 0, 0, 0.4);
-`
+`;
 
 export const General = styled.div`
   display: flex;
@@ -19,13 +19,13 @@ export const General = styled.div`
   font-size: 15px;
   align-items: center;
   margin: 0rem auto;
-`
+`;
 
 export const Title = styled.h1`
   display: flex;
   font-size: 20px;
   text-align: center;
-`
+`;
 
 export const AboutMe = styled.p`
   display: flex;
@@ -33,7 +33,7 @@ export const AboutMe = styled.p`
   text-align: center;
   opacity: 0.5;
   font-size: 15px;
-`
+`;
 
 export const CopyRight = styled.p`
   color: #fff;
@@ -41,7 +41,7 @@ export const CopyRight = styled.p`
   position: relative;
   top: 125px;
   font-size: 15px;
-`
+`;
 
 export const IconF = styled.a`
   display: flex;
@@ -53,9 +53,9 @@ export const IconF = styled.a`
   &:hover {
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
-    color: #4a90e2;
+    color: #0000ff;
   }
-`
+`;
 export const IconI = styled.a`
   display: flex;
   text-decoration: none;
@@ -68,7 +68,7 @@ export const IconI = styled.a`
     transform: scale(1.5);
     color: #000000;
   }
-`
+`;
 export const IconW = styled.a`
   display: flex;
   text-decoration: none;
@@ -81,7 +81,7 @@ export const IconW = styled.a`
     transform: scale(1.5);
     color: #417505;
   }
-`
+`;
 
 // cor facebook #3b5998
 // cor
@@ -89,7 +89,7 @@ export const IconW = styled.a`
 export const SubTitle = styled.li`
   display: flex;
   margin-top: 1em;
-`
+`;
 
 export const Telephone = styled.p`
   display: flex;
@@ -97,4 +97,4 @@ export const Telephone = styled.p`
   opacity: 0.5;
   margin-top: 1em;
   font-size: 15px;
-`
+`;
