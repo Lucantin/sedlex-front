@@ -15,7 +15,6 @@ export const Footer = () => {
           qualidade técnica e confiabilidade.
         </S.AboutMe>
       </S.General>
-
       <S.General>
         <S.CopyRight>Copyright © 2022 Sedlex.</S.CopyRight>
       </S.General>
@@ -23,15 +22,15 @@ export const Footer = () => {
       <S.General>
         <S.Title>Contatos</S.Title>
         <S.SubTitle>
-          <S.Icon href="http://www.facebook.com" target="_blank">
+          <S.IconF href="http://www.facebook.com" target="_blank">
             <FaFacebookF />
-          </S.Icon>
-          <S.Icon href="https://www.instagram.com/" target="_blank">
+          </S.IconF>
+          <S.IconI href="https://www.instagram.com/" target="_blank">
             <FaInstagram />
-          </S.Icon>
-          <S.Icon href="https://www.whatsapp.com/?lang=pt_br" target="_blank">
+          </S.IconI>
+          <S.IconW href="https://www.whatsapp.com/?lang=pt_br" target="_blank">
             <FaWhatsapp />
-          </S.Icon>
+          </S.IconW>
         </S.SubTitle>
         <S.Telephone>Telefone (11)987878788</S.Telephone>
       </S.General>

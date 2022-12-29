@@ -43,7 +43,7 @@ export const CopyRight = styled.p`
   font-size: 15px;
 `
 
-export const Icon = styled.a`
+export const IconF = styled.a`
   display: flex;
   text-decoration: none;
   opacity: 0.5;
@@ -53,7 +53,33 @@ export const Icon = styled.a`
   &:hover {
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
-    color: #3b5998;
+    color: #4a90e2;
+  }
+`
+export const IconI = styled.a`
+  display: flex;
+  text-decoration: none;
+  opacity: 0.5;
+  font-size: 21px;
+  margin: 7px;
+
+  &:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    color: #000000;
+  }
+`
+export const IconW = styled.a`
+  display: flex;
+  text-decoration: none;
+  opacity: 0.5;
+  font-size: 21px;
+  margin: 7px;
+
+  &:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    color: #417505;
   }
 `
 
