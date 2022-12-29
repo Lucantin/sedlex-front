@@ -1,11 +1,12 @@
-import React from "react";
-import * as S from "./styles";
+import React from 'react'
+import * as S from './styles'
 
 export const AboutUs = () => {
   return (
+    // <S.Start>
     <S.Container>
       <S.WrapperImage>
-        <S.Image src={require("../../images/loading.png")} alt="obra" />
+        <S.Image src={require('../../images/loading.png')} alt="obra" />
       </S.WrapperImage>
       <S.ContainerInformation>
         <S.WrapperInformation>
@@ -19,7 +20,7 @@ export const AboutUs = () => {
             bala? Passou pela CD, passou pela viatura Nem o radar móvel decifrou
             a nossa placa
           </S.Content>
-        </S.WrapperInformation>{" "}
+        </S.WrapperInformation>{' '}
         <S.WrapperInformation>
           <S.Content>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
@@ -43,5 +44,6 @@ export const AboutUs = () => {
         </S.WrapperInformation>
       </S.ContainerInformation>
     </S.Container>
-  );
-};
+    // </S.Start>
+  )
+}

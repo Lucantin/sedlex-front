@@ -79,7 +79,7 @@ export const IconW = styled.a`
   &:hover {
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
-    color: #417505;
+    color: #000;
   }
 `
 
