@@ -22,7 +22,7 @@ export const AboutUs = () => {
             bala? Passou pela CD, passou pela viatura Nem o radar móvel decifrou
             a nossa placa
           </S.Content>
-        </S.WrapperInformation>{" "}
+        </S.WrapperInformation>
         <S.WrapperInformation>
           <S.Content>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
