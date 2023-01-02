@@ -46,4 +46,7 @@ export const Content = styled.p`
   color: white;
 `
 
+export const Start = styled.div``
+
 export const Img = styled.img``
+

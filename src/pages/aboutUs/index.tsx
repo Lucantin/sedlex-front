@@ -1,12 +1,14 @@
+
+import React from 'react'
 import Carousel from 'nuka-carousel/lib/carousel'
 import React from 'react'
 import { CarouselImage } from '../../components/carousel-image'
 import { CarouselImage2 } from '../../components/carousel-image2'
-
 import * as S from './styles'
 
 export const AboutUs = () => {
   return (
+    // <S.Start>
     <S.Container>
       <S.WrapperImage>
         <Carousel>
