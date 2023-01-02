@@ -47,3 +47,6 @@ export const Content = styled.p`
 `
 
 export const Start = styled.div``
+
+export const Img = styled.img``
+

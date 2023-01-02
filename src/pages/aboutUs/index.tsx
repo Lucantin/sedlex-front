@@ -1,4 +1,9 @@
+
 import React from 'react'
+import Carousel from 'nuka-carousel/lib/carousel'
+import React from 'react'
+import { CarouselImage } from '../../components/carousel-image'
+import { CarouselImage2 } from '../../components/carousel-image2'
 import * as S from './styles'
 
 export const AboutUs = () => {
@@ -6,7 +11,13 @@ export const AboutUs = () => {
     // <S.Start>
     <S.Container>
       <S.WrapperImage>
-        <S.Image src={require('../../images/loading.png')} alt="obra" />
+        <Carousel>
+          <S.Img src={require('../../images/loading.png')} />
+          <S.Img src={require('../../images/loading.png')} />
+          <S.Img src={require('../../images/loading.png')} />
+          <S.Img src={require('../../images/loading.png')} />
+        </Carousel>
+        {/* <CarouselImage2 /> */}
       </S.WrapperImage>
       <S.ContainerInformation>
         <S.WrapperInformation>
@@ -20,7 +31,7 @@ export const AboutUs = () => {
             bala? Passou pela CD, passou pela viatura Nem o radar móvel decifrou
             a nossa placa
           </S.Content>
-        </S.WrapperInformation>{' '}
+        </S.WrapperInformation>
         <S.WrapperInformation>
           <S.Content>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
@@ -44,6 +55,5 @@ export const AboutUs = () => {
         </S.WrapperInformation>
       </S.ContainerInformation>
     </S.Container>
-    // </S.Start>
   )
 }
