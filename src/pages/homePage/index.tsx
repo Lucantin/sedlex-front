@@ -30,7 +30,6 @@ export const Home = () => {
           </S.Button>
         </S.Group>
       </S.Start>
-
       <S.End>
         <S.Group>
           <S.TitleStart> Conheça nossos serviços</S.TitleStart>
