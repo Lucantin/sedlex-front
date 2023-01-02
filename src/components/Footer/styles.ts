@@ -53,7 +53,7 @@ export const IconF = styled.a`
   &:hover {
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
-    color: #4a90e2;
+    color: #0000ff;
   }
 `
 export const IconI = styled.a`
@@ -66,7 +66,7 @@ export const IconI = styled.a`
   &:hover {
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
-    color: #000000;
+    color: #e1306c;
   }
 `
 export const IconW = styled.a`
