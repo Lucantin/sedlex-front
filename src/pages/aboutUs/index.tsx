@@ -1,14 +1,21 @@
-import React from "react";
-import { CarouselImage } from "../../components/carousel-image";
-import { CarouselImage2 } from "../../components/carousel-image2";
+import Carousel from 'nuka-carousel/lib/carousel'
+import React from 'react'
+import { CarouselImage } from '../../components/carousel-image'
+import { CarouselImage2 } from '../../components/carousel-image2'
 
-import * as S from "./styles";
+import * as S from './styles'
 
 export const AboutUs = () => {
   return (
     <S.Container>
       <S.WrapperImage>
-        <CarouselImage2 />
+        <Carousel>
+          <S.Img src={require('../../images/loading.png')} />
+          <S.Img src={require('../../images/loading.png')} />
+          <S.Img src={require('../../images/loading.png')} />
+          <S.Img src={require('../../images/loading.png')} />
+        </Carousel>
+        {/* <CarouselImage2 /> */}
       </S.WrapperImage>
       <S.ContainerInformation>
         <S.WrapperInformation>
@@ -46,5 +53,5 @@ export const AboutUs = () => {
         </S.WrapperInformation>
       </S.ContainerInformation>
     </S.Container>
-  );
-};
+  )
+}
