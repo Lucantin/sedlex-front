@@ -11,8 +11,6 @@ export const ContainerInformation = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
-  bottom: 0;
-  left: 0;
   width: 100%;
   height: 100%;
   padding: 5%;
@@ -23,8 +21,6 @@ export const WrapperImage = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  bottom: 0;
-  left: 0;
   width: 100%;
   height: 100%;
 `;
@@ -37,10 +33,8 @@ export const ContainerImage = styled.div`
 export const WrapperInformation = styled.div`
   display: flex;
   flex-direction: column;
-  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 1rem;
   padding: 30px;
-  margin-top: 5%;
 `;
 
 export const Image = styled.img`
@@ -49,7 +43,11 @@ export const Image = styled.img`
 `;
 
 export const Content = styled.p`
-  color: white;
+  display: flex;
+  text-align: justify;
+  border-radius: 1rem;
+  line-height: 1.3em;
+  padding: 1.3rem;
 `;
 
 export const ButtonTest = styled.button`
