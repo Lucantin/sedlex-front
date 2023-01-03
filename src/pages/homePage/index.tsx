@@ -1,6 +1,6 @@
-import React from 'react'
-import * as S from './styles'
-import { GiCctvCamera } from 'react-icons/gi'
+import React from "react";
+import * as S from "./styles";
+import { GiCctvCamera } from "react-icons/gi";
 
 export const Home = () => {
   return (
@@ -10,9 +10,8 @@ export const Home = () => {
           <GiCctvCamera />
         </S.Camera> */}
         <S.GroupImage>
-          <S.ImgStart src={require('../../images/loading.png')} alt="Logo" />
+          <S.ImgStart src={require("../../images/loading.png")} alt="Logo" />
         </S.GroupImage>
-
         <S.Group>
           <S.TitleStart> Conheça mais sobre nós</S.TitleStart>
           <S.TextStart>
@@ -46,7 +45,7 @@ export const Home = () => {
         </S.Group>
 
         <S.GroupImage>
-          <S.ImgStart src={require('../../images/loading.png')} alt="Logo" />
+          <S.ImgStart src={require("../../images/loading.png")} alt="Logo" />
         </S.GroupImage>
       </S.End>
 
@@ -55,14 +54,14 @@ export const Home = () => {
           <S.TitlePartner> Conheça nossos parceiros!</S.TitlePartner>
         </S.GroupPartner>
         <S.GroupCompanion>
-          <S.Companion src={require('../../images/loading.png')} alt="Logo" />
-          <S.Companion src={require('../../images/loading.png')} alt="Logo" />
-          <S.Companion src={require('../../images/loading.png')} alt="Logo" />
-          <S.Companion src={require('../../images/loading.png')} alt="Logo" />
-          <S.Companion src={require('../../images/loading.png')} alt="Logo" />
-          <S.Companion src={require('../../images/loading.png')} alt="Logo" />
+          <S.Companion src={require("../../images/loading.png")} alt="Logo" />
+          <S.Companion src={require("../../images/loading.png")} alt="Logo" />
+          <S.Companion src={require("../../images/loading.png")} alt="Logo" />
+          <S.Companion src={require("../../images/loading.png")} alt="Logo" />
+          <S.Companion src={require("../../images/loading.png")} alt="Logo" />
+          <S.Companion src={require("../../images/loading.png")} alt="Logo" />
         </S.GroupCompanion>
       </S.Partner>
     </S.Container>
-  )
-}
+  );
+};
