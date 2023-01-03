@@ -1,23 +1,31 @@
-
-import React from 'react'
-import Carousel from 'nuka-carousel/lib/carousel'
-import React from 'react'
-import { CarouselImage } from '../../components/carousel-image'
-import { CarouselImage2 } from '../../components/carousel-image2'
-import * as S from './styles'
+import React from "react";
+import Carousel from "nuka-carousel/lib/carousel";
+import { BsArrowRight, BsArrowLeft } from "react-icons/bs";
+import * as S from "./styles";
 
 export const AboutUs = () => {
   return (
-    // <S.Start>
     <S.Container>
       <S.WrapperImage>
-        <Carousel>
-          <S.Img src={require('../../images/loading.png')} />
-          <S.Img src={require('../../images/loading.png')} />
-          <S.Img src={require('../../images/loading.png')} />
-          <S.Img src={require('../../images/loading.png')} />
-        </Carousel>
-        {/* <CarouselImage2 /> */}
+        <S.ContainerImage>
+          <Carousel
+            renderCenterLeftControls={({ previousSlide }) => (
+              <S.ButtonTest onClick={previousSlide}>
+                <BsArrowLeft />
+              </S.ButtonTest>
+            )}
+            renderCenterRightControls={({ nextSlide }) => (
+              <S.ButtonTest onClick={nextSlide}>
+                <BsArrowRight />
+              </S.ButtonTest>
+            )}
+          >
+            <S.Img src={require("../../images/loading.png")} />
+            <S.Img src={require("../../images/loading.png")} />
+            <S.Img src={require("../../images/loading.png")} />
+            <S.Img src={require("../../images/loading.png")} />
+          </Carousel>
+        </S.ContainerImage>
       </S.WrapperImage>
       <S.ContainerInformation>
         <S.WrapperInformation>
@@ -55,5 +63,5 @@ export const AboutUs = () => {
         </S.WrapperInformation>
       </S.ContainerInformation>
     </S.Container>
-  )
-}
+  );
+};

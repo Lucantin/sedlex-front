@@ -1,11 +1,11 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-`
+`;
 
 export const ContainerInformation = styled.div`
   display: flex;
@@ -16,17 +16,23 @@ export const ContainerInformation = styled.div`
   width: 100%;
   height: 100%;
   padding: 5%;
-`
+`;
 
 export const WrapperImage = styled.div`
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
   bottom: 0;
   left: 0;
   width: 100%;
   height: 100%;
-`
+`;
+
+export const ContainerImage = styled.div`
+  width: 70%;
+  padding-left: 10%;
+`;
 
 export const WrapperInformation = styled.div`
   display: flex;
@@ -35,18 +41,19 @@ export const WrapperInformation = styled.div`
   border-radius: 1rem;
   padding: 30px;
   margin-top: 5%;
-`
+`;
 
 export const Image = styled.img`
   width: 100%;
   display: flex;
-`
+`;
 
 export const Content = styled.p`
   color: white;
-`
+`;
 
-export const Start = styled.div``
+export const ButtonTest = styled.button`
+  cursor: pointer;
+`;
 
-export const Img = styled.img``
-
+export const Img = styled.img``;
