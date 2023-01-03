@@ -9,6 +9,9 @@ export const AboutUs = () => {
       <S.WrapperImage>
         <S.ContainerImage>
           <Carousel
+            wrapAround={true}
+            autoplay={true}
+            pauseOnHover={true}
             renderCenterLeftControls={({ previousSlide }) => (
               <S.ButtonTest onClick={previousSlide}>
                 <BsArrowLeft />
@@ -21,8 +24,8 @@ export const AboutUs = () => {
             )}
           >
             <S.Img src={require("../../images/loading.png")} />
-            <S.Img src={require("../../images/loading.png")} />
-            <S.Img src={require("../../images/loading.png")} />
+            <S.Img src={require("../../images/messi.png.png")} />
+            <S.Img src={require("../../images/manutencao.png")} />
             <S.Img src={require("../../images/loading.png")} />
           </Carousel>
         </S.ContainerImage>
