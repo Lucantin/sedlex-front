@@ -23,15 +23,16 @@ export const AboutUs = () => {
               </S.ButtonTest>
             )}
           >
-            <S.Img src={require("../../images/loading.png")} />
-            <S.Img src={require("../../images/messi.png.png")} />
-            <S.Img src={require("../../images/manutencao.png")} />
-            <S.Img src={require("../../images/loading.png")} />
+            <S.Img src={require("../../images/frankUsavel.png")} />
+            <S.Img src={require("../../images/usaveltalvz.png")} />
+            <S.Img src={require("../../images/caixaDeForca2.png")} />
+            <S.Img src={require("../../images/bombas.png")} />
           </Carousel>
         </S.ContainerImage>
       </S.WrapperImage>
       <S.ContainerInformation>
         <S.WrapperInformation>
+          <S.Title>Sobre nós</S.Title>
           <S.Content>
             Eu tô passando na quebrada em cima da Ducati A loira na garupa muito
             linda, muito gata Já acostumada a meter fuga na polícia Memo de
@@ -44,6 +45,7 @@ export const AboutUs = () => {
           </S.Content>
         </S.WrapperInformation>
         <S.WrapperInformation>
+          <S.Title>História</S.Title>
           <S.Content>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
             lacinia tincidunt ligula at tincidunt. Ut tincidunt ipsum leo, at

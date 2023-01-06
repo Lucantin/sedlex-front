@@ -38,8 +38,12 @@ export const WrapperInformation = styled.div`
 `;
 
 export const Image = styled.img`
-  width: 100%;
   display: flex;
+`;
+
+export const Title = styled.p`
+  font-size: 25px;
+  font-style: italic;
 `;
 
 export const Content = styled.p`
@@ -54,4 +58,6 @@ export const ButtonTest = styled.button`
   cursor: pointer;
 `;
 
-export const Img = styled.img``;
+export const Img = styled.img`
+  width: 300px;
+`;
