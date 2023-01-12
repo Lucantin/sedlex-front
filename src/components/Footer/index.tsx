@@ -10,9 +10,9 @@ export const Footer = () => {
       <S.General>
         <S.Title> Sobre a Sedlex</S.Title>
         <S.AboutMe>
-          A Sedlex Manutenções é uma empresa de engenharia que atua na prestação
-          de serviços de manutenções e construções em geral. Oferece alta
-          qualidade técnica e confiabilidade.
+          A Sedlex é uma empresa que presta serviço na area de manutenção e
+          eletrica na grande São Paulo. Prezando qualidade no serviço e no bom
+          atendimento.
         </S.AboutMe>
       </S.General>
       <S.General>
