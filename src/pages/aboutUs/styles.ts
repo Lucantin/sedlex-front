@@ -7,15 +7,6 @@ export const Container = styled.div`
   align-items: center;
 `;
 
-export const ContainerInformation = styled.div`
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-  padding: 5%;
-`;
-
 export const WrapperImage = styled.div`
   display: flex;
   justify-content: center;
@@ -26,8 +17,26 @@ export const WrapperImage = styled.div`
 `;
 
 export const ContainerImage = styled.div`
-  width: 70%;
-  padding-left: 10%;
+  width: 50%;
+  background-color: red;
+`;
+
+export const Img = styled.img`
+  display: flex;
+  width: 100%;
+  max-width: 500px;
+  height: 100%;
+  max-height: 285px;
+  pointer-events: none;
+`;
+
+export const ContainerInformation = styled.div`
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 5%;
 `;
 
 export const WrapperInformation = styled.div`
@@ -35,11 +44,11 @@ export const WrapperInformation = styled.div`
   flex-direction: column;
   border-radius: 1rem;
   padding: 30px;
+  margin-top: 1rem;
 `;
 
-export const Image = styled.img`
-  width: 100%;
-  display: flex;
+export const Title = styled.p`
+  font-weight: bold;
 `;
 
 export const Content = styled.p`
@@ -48,10 +57,9 @@ export const Content = styled.p`
   border-radius: 1rem;
   line-height: 1.3em;
   padding: 1.3rem;
+  color: #55606e;
 `;
 
-export const ButtonTest = styled.button`
+export const Button = styled.button`
   cursor: pointer;
 `;
-
-export const Img = styled.img``;

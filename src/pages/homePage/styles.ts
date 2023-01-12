@@ -60,7 +60,11 @@ export const TitleStart = styled.h1`
   background-color: rgba(0, 0, 0, 0.55);
   margin-top: 4.7rem;
   border-radius: 1rem;
-`
+
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+`;
+
 
 export const TextStart = styled.p`
   display: flex;
@@ -74,7 +78,11 @@ export const TextStart = styled.p`
   padding: 1.3rem;
   max-width: 100%;
   min-width: 10%;
-`
+
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+`;
+
 export const Button = styled.a`
   width: 9rem;
   margin-top: 1em;
