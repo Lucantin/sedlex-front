@@ -1,6 +1,7 @@
-import React from "react";
-import * as S from "./styles";
-import { GiCctvCamera } from "react-icons/gi";
+import React from 'react'
+import * as S from './styles'
+import { Link } from 'react-router-dom'
+import { GiCctvCamera } from 'react-icons/gi'
 
 export const Home = () => {
   return (
@@ -10,7 +11,10 @@ export const Home = () => {
           <GiCctvCamera />
         </S.Camera> */}
         <S.GroupImage>
-          <S.ImgStart src={require("../../images/loading.png")} alt="Logo" />
+          <S.ImgStart
+            src={require('../../images/fotoMuitoUsavel.png')}
+            alt="Logo"
+          />
         </S.GroupImage>
         <S.Group>
           <S.TitleStart> Conheça mais sobre nós</S.TitleStart>
@@ -24,8 +28,10 @@ export const Home = () => {
             bala? Passou pela CD, passou pela viatura Nem o radar móvel decifrou
             a nossa placa
           </S.TextStart>
-          <S.Button href="http://www.facebook.com" target="blank">
-            Saiba Mais
+          <S.Button>
+            <Link to="/aboutus" style={{ textDecoration: 'none' }}>
+              Saiba Mais
+            </Link>
           </S.Button>
         </S.Group>
       </S.Start>
@@ -44,9 +50,12 @@ export const Home = () => {
           </S.TextStart>
         </S.Group>
 
-        <S.GroupImage>
-          <S.ImgStart src={require("../../images/loading.png")} alt="Logo" />
-        </S.GroupImage>
+        <S.GroupImageE>
+          <S.ImgStart
+            src={require('../../images/foto100usavel.png')}
+            alt="Logo"
+          />
+        </S.GroupImageE>
       </S.End>
 
       <S.Partner>
@@ -54,14 +63,14 @@ export const Home = () => {
           <S.TitlePartner> Conheça nossos parceiros!</S.TitlePartner>
         </S.GroupPartner>
         <S.GroupCompanion>
-          <S.Companion src={require("../../images/loading.png")} alt="Logo" />
-          <S.Companion src={require("../../images/loading.png")} alt="Logo" />
-          <S.Companion src={require("../../images/loading.png")} alt="Logo" />
-          <S.Companion src={require("../../images/loading.png")} alt="Logo" />
-          <S.Companion src={require("../../images/loading.png")} alt="Logo" />
-          <S.Companion src={require("../../images/loading.png")} alt="Logo" />
+          <S.Companion src={require('../../images/loading.png')} alt="Logo" />
+          <S.Companion src={require('../../images/loading.png')} alt="Logo" />
+          <S.Companion src={require('../../images/loading.png')} alt="Logo" />
+          <S.Companion src={require('../../images/loading.png')} alt="Logo" />
+          <S.Companion src={require('../../images/loading.png')} alt="Logo" />
+          <S.Companion src={require('../../images/loading.png')} alt="Logo" />
         </S.GroupCompanion>
       </S.Partner>
     </S.Container>
-  );
-};
+  )
+}
