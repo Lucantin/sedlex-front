@@ -5,6 +5,7 @@ export const Container = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-bottom: 0;
 `;
 
 export const WrapperImage = styled.div`
@@ -18,7 +19,6 @@ export const WrapperImage = styled.div`
 
 export const ContainerImage = styled.div`
   width: 50%;
-  background-color: red;
 `;
 
 export const Img = styled.img`
