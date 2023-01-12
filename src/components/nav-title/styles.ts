@@ -26,8 +26,6 @@ export const DirectLink = styled.p`
   opacity: 0;
   animation: slide-in-anim 1.5s ease-out forwards;
 
-  /* .texto {animation: slide-out-anim 1.5s ease-out forwards;} */
-
   @keyframes slide-in-anim {
     20% {
       opacity: 0;
