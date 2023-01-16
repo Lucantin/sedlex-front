@@ -1,7 +1,7 @@
-import React from 'react'
-import * as S from './styles'
-import { Link } from 'react-router-dom'
-import { GiCctvCamera } from 'react-icons/gi'
+import React from "react";
+import * as S from "./styles";
+import { GiCctvCamera } from "react-icons/gi";
+import { ButtonR } from "../../components/button-redirect";
 
 export const Home = () => {
   return (
@@ -12,7 +12,7 @@ export const Home = () => {
         </S.Camera> */}
         <S.GroupImage>
           <S.ImgStart
-            src={require('../../images/fotoMuitoUsavel.png')}
+            src={require("../../images/fotoMuitoUsavel.png")}
             alt="Logo"
           />
         </S.GroupImage>
@@ -24,11 +24,7 @@ export const Home = () => {
             necessidades apresentadas pelo mercado. Sempre prezando pelo bom
             atendimento com segurança e responsabilidade nos serviços.
           </S.TextStart>
-          <S.Button>
-            <Link to="/aboutus" style={{ textDecoration: 'none' }}>
-              Saiba Mais
-            </Link>
-          </S.Button>
+          <ButtonR />
         </S.Group>
       </S.Start>
       <S.End>
@@ -44,7 +40,7 @@ export const Home = () => {
 
         <S.GroupImageE>
           <S.ImgStart
-            src={require('../../images/foto100usavel.png')}
+            src={require("../../images/foto100usavel.png")}
             alt="Logo"
           />
         </S.GroupImageE>
@@ -55,14 +51,14 @@ export const Home = () => {
           <S.TitlePartner> Conheça nossos parceiros!</S.TitlePartner>
         </S.GroupPartner>
         <S.GroupCompanion>
-          <S.Companion src={require('../../images/loading.png')} alt="Logo" />
-          <S.Companion src={require('../../images/loading.png')} alt="Logo" />
-          <S.Companion src={require('../../images/loading.png')} alt="Logo" />
-          <S.Companion src={require('../../images/loading.png')} alt="Logo" />
-          <S.Companion src={require('../../images/loading.png')} alt="Logo" />
-          <S.Companion src={require('../../images/loading.png')} alt="Logo" />
+          <S.Companion src={require("../../images/loading.png")} alt="Logo" />
+          <S.Companion src={require("../../images/loading.png")} alt="Logo" />
+          <S.Companion src={require("../../images/loading.png")} alt="Logo" />
+          <S.Companion src={require("../../images/loading.png")} alt="Logo" />
+          <S.Companion src={require("../../images/loading.png")} alt="Logo" />
+          <S.Companion src={require("../../images/loading.png")} alt="Logo" />
         </S.GroupCompanion>
       </S.Partner>
     </S.Container>
-  )
-}
+  );
+};
