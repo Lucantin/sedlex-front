@@ -25,7 +25,7 @@ export const GroupImage = styled.div`
   height: 31.25rem;
   width: 35.25rem;
   margin: 0rem auto;
-  border: outset #1273de 1rem;
+  border: outset #1184e0 0.7rem;
 `
 
 export const GroupImageE = styled.div`
@@ -33,7 +33,7 @@ export const GroupImageE = styled.div`
   height: 31.25rem;
   width: 31.25rem;
   margin: 0rem auto;
-  border: outset #1273de 1rem;
+  border: outset #1184e0 0.7rem;
 `
 
 export const ImgStart = styled.img`
@@ -63,8 +63,7 @@ export const TitleStart = styled.h1`
 
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-`;
-
+`
 
 export const TextStart = styled.p`
   display: flex;
@@ -81,7 +80,7 @@ export const TextStart = styled.p`
 
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-`;
+`
 
 export const Button = styled.a`
   width: 9rem;
