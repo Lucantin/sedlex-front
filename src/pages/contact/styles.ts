@@ -1,18 +1,20 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.div`
   display: flex;
+  flex-direction: row;
   align-items: center;
-`;
+`
 
 export const WrapperMail = styled.div`
-  width: 100%;
-`;
+  width: 100vh;
+  margin: 7rem;
+`
 
-export const Title = styled.p`
+export const Title = styled.h1`
   font-size: 25px;
   margin: 15px;
-`;
+`
 
 export const SendMail = styled.form``;
 
@@ -22,7 +24,7 @@ export const InputMail = styled.input`
   margin: 15px;
   padding: 1rem;
   border-radius: 5px;
-  width: 30%;
+  width: 100%;
 
   ::placeholder,
   ::-webkit-input-placeholder {
@@ -38,7 +40,7 @@ export const InputMail = styled.input`
       opacity: 0;
     }
   }
-`;
+`
 
 export const InputMailText = styled.textarea`
   display: flex;
@@ -46,7 +48,7 @@ export const InputMailText = styled.textarea`
   margin: 15px;
   padding: 1rem;
   border-radius: 5px;
-  width: 30%;
+  width: 100%;
   height: 20vh;
 
   ::placeholder,
@@ -63,7 +65,7 @@ export const InputMailText = styled.textarea`
       opacity: 0;
     }
   }
-`;
+`
 
 export const SubmitButton = styled.button`
   display: flex;
@@ -76,7 +78,7 @@ export const SubmitButton = styled.button`
   color: rgba(0, 0, 0, 0.85);
   cursor: pointer;
   display: inline-flex;
-  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+  font-family: system-ui, -apple-system, system-ui, 'Helvetica Neue', Helvetica,
     Arial, sans-serif;
   font-size: 16px;
   font-weight: 600;
@@ -112,4 +114,12 @@ export const SubmitButton = styled.button`
     color: rgba(0, 0, 0, 0.65);
     transform: translateY(0);
   }
-`;
+`
+export const Lado = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100vh;
+  margin: 7rem;
+`
+
+export const InfoMap = styled.p``
