@@ -19,14 +19,10 @@ export const Home = () => {
         <S.Group>
           <S.TitleStart> Conheça mais sobre nós</S.TitleStart>
           <S.TextStart>
-            Eu tô passando na quebrada em cima da Ducati A loira na garupa muito
-            linda, muito gata Já acostumada a meter fuga na polícia Memo de
-            robozão, passo no canto da lombada A NASA tá sabendo quem é esses
-            cara Que pilota muito, de cabelo verde E já tá querendo assinar
-            contrato É os vilão descontrolado que pilota os foguete Lá na
-            marginal tipo Need for Speed Quem é esses maluco passando igual uma
-            bala? Passou pela CD, passou pela viatura Nem o radar móvel decifrou
-            a nossa placa
+            A Sedlex é uma empresa de manutenção e elétrica, possuindo grande
+            conhecimento na área e desenvolvendo soluções em função das muitas
+            necessidades apresentadas pelo mercado. Sempre prezando pelo bom
+            atendimento com segurança e responsabilidade nos serviços.
           </S.TextStart>
           <S.Button>
             <Link to="/aboutus" style={{ textDecoration: 'none' }}>
@@ -39,14 +35,10 @@ export const Home = () => {
         <S.Group>
           <S.TitleStart> Conheça nossos serviços</S.TitleStart>
           <S.TextStart>
-            "Eu tô passando na quebrada em cima da Ducati A loira na garupa
-            muito linda, muito gata Já acostumada a meter fuga na polícia Memo
-            de robozão, passo no canto da lombada A NASA tá sabendo quem é esses
-            cara Que pilota muito, de cabelo verde E já tá querendo assinar
-            contrato É os vilão descontrolado que pilota os foguete Lá na
-            marginal tipo Need for Speed Quem é esses maluco passando igual uma
-            bala? Passou pela CD, passou pela viatura Nem o radar móvel decifrou
-            a nossa placa"
+            A Sedlex é uma empresa de manutenção e elétrica, possuindo grande
+            conhecimento na área e desenvolvendo soluções em função das muitas
+            necessidades apresentadas pelo mercado. Sempre prezando pelo bom
+            atendimento com segurança e responsabilidade nos serviços.
           </S.TextStart>
         </S.Group>
 
