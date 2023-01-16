@@ -14,9 +14,7 @@ export const Title = styled.p`
   margin: 15px;
 `;
 
-export const SendMail = styled.form`
-  display: flex;
-`;
+export const SendMail = styled.form``;
 
 export const InputMail = styled.input`
   display: flex;
