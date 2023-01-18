@@ -48,6 +48,7 @@ export const WrapperInformation = styled.div`
 `;
 
 export const Title = styled.p`
+  display: flex;
   font-weight: bold;
 `;
 
