@@ -10,7 +10,7 @@ export const Start = styled.div`
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 35.25rem;
+  height: 100%;
   background: linear-gradient(#1184e0, #ffffff);
 `
 
@@ -47,7 +47,7 @@ export const Group = styled.div`
   color: #fff;
   flex-direction: column;
   padding: 1rem;
-  width: 31.25rem;
+  width: 55vh;
   align-items: center;
   margin: 0rem auto;
 `
@@ -72,8 +72,7 @@ export const TextStart = styled.p`
   border-radius: 1rem;
   background-color: rgba(0, 0, 0, 0.55);
   line-height: 1.3em;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin: 1.3rem;
   padding: 1.3rem;
   max-width: 100%;
   min-width: 10%;
@@ -99,7 +98,7 @@ export const End = styled.div`
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 31.25rem;
+  height: 100%;
 `
 
 export const Partner = styled.div`
