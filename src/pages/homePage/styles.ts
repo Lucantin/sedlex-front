@@ -1,8 +1,8 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Container = styled.div`
   flex-direction: row;
-`
+`;
 
 export const Start = styled.div`
   display: flex;
@@ -12,13 +12,14 @@ export const Start = styled.div`
   width: 100%;
   height: 100%;
   background: linear-gradient(#1184e0, #ffffff);
-`
+  flex-wrap: wrap;
+`;
 
 export const Camera = styled.a`
   display: flex;
   text-decoration: none;
   font-size: 2.5rem;
-`
+`;
 
 export const GroupImage = styled.div`
   display: flex;
@@ -26,7 +27,7 @@ export const GroupImage = styled.div`
   width: 35.25rem;
   margin: 0rem auto;
   border: outset #1184e0 0.7rem;
-`
+`;
 
 export const GroupImageE = styled.div`
   display: flex;
@@ -34,13 +35,13 @@ export const GroupImageE = styled.div`
   width: 31.25rem;
   margin: 0rem auto;
   border: outset #1184e0 0.7rem;
-`
+`;
 
 export const ImgStart = styled.img`
   display: flex;
   width: 100%;
   height: 100%;
-`
+`;
 
 export const Group = styled.div`
   display: flex;
@@ -50,7 +51,7 @@ export const Group = styled.div`
   width: 55vh;
   align-items: center;
   margin: 0rem auto;
-`
+`;
 
 export const TitleStart = styled.h1`
   display: flex;
@@ -63,7 +64,7 @@ export const TitleStart = styled.h1`
 
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-`
+`;
 
 export const TextStart = styled.p`
   display: flex;
@@ -79,7 +80,7 @@ export const TextStart = styled.p`
 
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-`
+`;
 
 export const Button = styled.a`
   width: 9rem;
@@ -90,16 +91,17 @@ export const Button = styled.a`
   background-color: #40a9eb;
   align-items: center;
   padding: 0.3rem;
-`
+`;
 
 export const End = styled.div`
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   bottom: 0;
   left: 0;
   width: 100%;
   height: 100%;
-`
+`;
 
 export const Partner = styled.div`
   display: grid;
@@ -108,7 +110,7 @@ export const Partner = styled.div`
   left: 0;
   width: 100%;
   height: 31.25rem;
-`
+`;
 
 export const GroupPartner = styled.div`
   display: flex;
@@ -118,7 +120,7 @@ export const GroupPartner = styled.div`
   width: 100%;
   align-items: center;
   margin: 0rem auto;
-`
+`;
 
 export const TitlePartner = styled.h1`
   display: flex;
@@ -128,7 +130,7 @@ export const TitlePartner = styled.h1`
   color: #000000;
   margin-top: 4.7rem;
   border-radius: 1rem;
-`
+`;
 
 export const GroupCompanion = styled.div`
   display: flex;
@@ -137,9 +139,9 @@ export const GroupCompanion = styled.div`
   height: 12rem;
   width: 100%;
   margin: 0rem auto;
-`
+`;
 
 export const Companion = styled.img`
   display: flex;
   padding: 2rem auto;
-`
+`;
