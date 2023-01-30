@@ -5,7 +5,10 @@ export const Container = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-bottom: 0;
+
+  @media (max-width: 1000px) {
+    flex-wrap: wrap;
+  }
 `;
 
 export const WrapperImage = styled.div`
@@ -15,6 +18,7 @@ export const WrapperImage = styled.div`
   flex-direction: column;
   width: 100%;
   height: 100%;
+  margin: 7%;
 `;
 
 export const ContainerImage = styled.div`
