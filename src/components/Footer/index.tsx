@@ -1,8 +1,8 @@
-import React from 'react'
-import { FaFacebookF } from 'react-icons/fa'
-import { FaInstagram } from 'react-icons/fa'
-import { FaWhatsapp } from 'react-icons/fa'
-import * as S from './styles'
+import React from "react";
+import { FaFacebookF } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
+import * as S from "./styles";
 
 export const Footer = () => {
   return (
@@ -10,8 +10,8 @@ export const Footer = () => {
       <S.General>
         <S.Title> Sobre a Sedlex</S.Title>
         <S.AboutMe>
-          A Sedlex é uma empresa que presta serviço na area de manutenção e
-          eletrica na grande São Paulo. Prezando qualidade no serviço e no bom
+          A Sedlex é uma empresa que presta serviço na área de manutenção e
+          elétrica na grande São Paulo. Prezando qualidade do serviço e no bom
           atendimento.
         </S.AboutMe>
       </S.General>
@@ -35,5 +35,5 @@ export const Footer = () => {
         <S.Telephone>Telefone (11)987878788</S.Telephone>
       </S.General>
     </S.Container>
-  )
-}
+  );
+};
