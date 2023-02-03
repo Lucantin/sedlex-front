@@ -1,10 +1,9 @@
-
 import React, { useState } from "react";
 import * as S from "./styles";
 import Hamburger from "hamburger-react";
 import { NavTitle } from "../nav-title";
 
-export const Navbar = () => {
+const Navbar = () => {
   const [sideBar, setSideBar] = useState(false);
 
   const showSideBar = () => setSideBar(!sideBar);
@@ -24,5 +23,7 @@ export const Navbar = () => {
         {sideBar && <NavTitle />}
       </S.WrapperBurguer>
     </S.Container>
-  )
-}
+  );
+};
+
+export default Navbar;
