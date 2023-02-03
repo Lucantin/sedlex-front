@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, BrowserRouter, Routes as Router } from "react-router-dom";
-import Footer from "../components/footer";
-import Navbar from "../components/navbar";
+import Footer from "../components/footer/index.tsx";
+import Navbar from "../components/navbar/index.tsx";
 import { AboutUs } from "../pages/aboutUs";
 import { Contact } from "../pages/contact";
 import { Home } from "../pages/homePage";
