@@ -1,32 +1,33 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-`
+`;
 
 export const WrapperMail = styled.div`
   width: 100vh;
   margin: 7rem;
-`
+`;
 
 export const Title = styled.h1`
   font-size: 25px;
 
   display: flex;
-`
+`;
 
-export const SendMail = styled.form``
+export const SendMail = styled.form``;
 
 export const InputMail = styled.input`
   display: flex;
   border: 1px solid rgba(0, 0, 0, 0.55);
-  margin: 15px;
+  margin-top: 15px;
   padding: 1rem;
   border-radius: 5px;
   width: 50%;
+  min-width: 200px;
 
   ::placeholder,
   ::-webkit-input-placeholder {
@@ -42,16 +43,17 @@ export const InputMail = styled.input`
       opacity: 0;
     }
   }
-`
+`;
 
 export const InputMailText = styled.textarea`
   display: flex;
   border: 1px solid rgba(0, 0, 0, 0.55);
-  margin: 15px;
+  margin-top: 15px;
   padding: 1rem;
   border-radius: 5px;
   width: 50%;
   height: 20vh;
+  min-width: 200px;
 
   ::placeholder,
   ::-webkit-input-placeholder {
@@ -67,7 +69,7 @@ export const InputMailText = styled.textarea`
       opacity: 0;
     }
   }
-`
+`;
 
 export const SubmitButton = styled.button`
   display: flex;
@@ -80,13 +82,13 @@ export const SubmitButton = styled.button`
   color: rgba(0, 0, 0, 0.85);
   cursor: pointer;
   display: inline-flex;
-  font-family: system-ui, -apple-system, system-ui, 'Helvetica Neue', Helvetica,
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
     Arial, sans-serif;
   font-size: 16px;
   font-weight: 600;
   justify-content: center;
   line-height: 1.25;
-  margin: 15px;
+  margin-top: 15px;
   min-height: 3rem;
   padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
   position: relative;
@@ -116,20 +118,21 @@ export const SubmitButton = styled.button`
     color: rgba(0, 0, 0, 0.65);
     transform: translateY(0);
   }
-`
+`;
 
 export const WrapperMap = styled.div`
   display: flex;
   flex-direction: column;
   width: 25vw;
   height: 50vh;
-  margin: 5rem;
-`
+  margin: 7rem;
+`;
 
-export const InfoMap = styled.p``
+export const InfoMap = styled.p``;
 
 export const Map = styled.iframe`
   display: flex;
   width: 100%;
   height: 100%;
-`
+  min-width: 250px;
+`;
