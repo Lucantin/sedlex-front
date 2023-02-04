@@ -4,7 +4,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import * as S from "./styles";
 
-export const Footer = () => {
+const Footer = () => {
   return (
     <S.Container>
       <S.General>
@@ -37,3 +37,5 @@ export const Footer = () => {
     </S.Container>
   );
 };
+
+export default Footer;
