@@ -1,19 +1,19 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const WrapperInfo = styled.div`
   display: flex;
   align-items: center;
   padding-right: 10%;
-`;
+`
 
 export const List = styled.ul`
   list-style: none;
-`;
+`
 
 export const Item = styled.li`
   display: flex;
-  gap: 30px;
-`;
+  /* gap: 30px; */
+`
 
 export const DirectLink = styled.p`
   color: white;
@@ -59,7 +59,7 @@ export const DirectLink = styled.p`
   } */
 
   &::after {
-    content: "";
+    content: '';
     display: block;
     margin-top: 10px;
     margin-left: auto;
@@ -73,4 +73,4 @@ export const DirectLink = styled.p`
     width: 100%;
     transition: all 0.4s;
   }
-`;
+`
