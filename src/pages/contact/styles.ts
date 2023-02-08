@@ -8,8 +8,11 @@ export const Container = styled.div`
 `
 
 export const WrapperMail = styled.div`
+  display: flex;
+  flex-direction: column;
   width: 100vh;
   margin: 7rem;
+  align-items: center;
 `
 
 export const Title = styled.h1`
@@ -18,7 +21,11 @@ export const Title = styled.h1`
   display: flex;
 `
 
-export const SendMail = styled.form``
+export const SendMail = styled.form`
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+`
 
 export const InputMail = styled.input`
   display: flex;
@@ -26,8 +33,8 @@ export const InputMail = styled.input`
   margin-top: 15px;
   padding: 1rem;
   border-radius: 5px;
-  width: 50%;
-  min-width: 200px;
+  width: 100%;
+  /* min-width: 200px; */
 
   ::placeholder,
   ::-webkit-input-placeholder {
@@ -51,9 +58,9 @@ export const InputMailText = styled.textarea`
   margin-top: 15px;
   padding: 1rem;
   border-radius: 5px;
-  width: 50%;
+  width: 100%;
   height: 20vh;
-  min-width: 200px;
+  /* min-width: 200px; */
 
   ::placeholder,
   ::-webkit-input-placeholder {
@@ -123,13 +130,13 @@ export const SubmitButton = styled.button`
 export const WrapperMap = styled.div`
   display: flex;
   flex-direction: column;
-  width: 25vw;
+  width: 50vh;
   height: 50vh;
-  align-items: center;
   margin: 7rem;
+  align-items: center;
 `
 
-export const InfoMap = styled.p`
+export const InfoMap = styled.h2`
   display: flex;
   flex-wrap: wrap;
   text-align: center;
@@ -139,5 +146,5 @@ export const Map = styled.iframe`
   display: flex;
   width: 100%;
   height: 100%;
-  min-width: 250px;
+  /* min-width: 250px; */
 `
