@@ -1,11 +1,13 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  @media (max-width: 1000px) {
+    flex-wrap: wrap;
+  }
   align-items: center;
-`
+`;
 
 export const WrapperMail = styled.div`
   display: flex;
@@ -13,19 +15,19 @@ export const WrapperMail = styled.div`
   width: 100vh;
   margin: 7rem;
   align-items: center;
-`
+`;
 
 export const Title = styled.h1`
   font-size: 25px;
   text-align: center;
   display: flex;
-`
+`;
 
 export const SendMail = styled.form`
   display: flex;
   flex-direction: column;
   width: 75%;
-`
+`;
 
 export const InputMail = styled.input`
   display: flex;
@@ -50,7 +52,7 @@ export const InputMail = styled.input`
       opacity: 0;
     }
   }
-`
+`;
 
 export const InputMailText = styled.textarea`
   display: flex;
@@ -76,7 +78,7 @@ export const InputMailText = styled.textarea`
       opacity: 0;
     }
   }
-`
+`;
 
 export const SubmitButton = styled.button`
   display: flex;
@@ -89,7 +91,7 @@ export const SubmitButton = styled.button`
   color: rgba(0, 0, 0, 0.85);
   cursor: pointer;
   display: inline-flex;
-  font-family: system-ui, -apple-system, system-ui, 'Helvetica Neue', Helvetica,
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
     Arial, sans-serif;
   font-size: 16px;
   font-weight: 600;
@@ -125,7 +127,7 @@ export const SubmitButton = styled.button`
     color: rgba(0, 0, 0, 0.65);
     transform: translateY(0);
   }
-`
+`;
 
 export const WrapperMap = styled.div`
   display: flex;
@@ -134,17 +136,17 @@ export const WrapperMap = styled.div`
   height: 50vh;
   margin: 7rem;
   align-items: center;
-`
+`;
 
 export const InfoMap = styled.h2`
   display: flex;
   flex-wrap: wrap;
   text-align: center;
-`
+`;
 
 export const Map = styled.iframe`
   display: flex;
   width: 100%;
   height: 100%;
   /* min-width: 250px; */
-`
+`;
