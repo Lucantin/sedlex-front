@@ -61,16 +61,15 @@ export const Contact = () => {
             required
             value={message}
           />
-
+          <S.SubmitButton>Enviar</S.SubmitButton>
           <ToastContainer />
         </S.SendMail>
-        <S.SubmitButton>Enviar</S.SubmitButton>
       </S.WrapperMail>
       <S.WrapperMap>
         <S.Title>Sedlex Manutenções</S.Title>
-        <S.InfoMap>Rua casa da manutenção 2500</S.InfoMap>
+        <S.InfoMap>Av. Visc. de Nova Granada, 1165 - Vila Osasco</S.InfoMap>
         <S.Map
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.2447577704224!2d-46.76606658442418!3d-23.52369766608889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ceffa0e6c7b5a9%3A0xfb54dbcb83f84929!2sHavan%20Marginal%20Tiet%C3%AA%20(Osasco)!5e0!3m2!1spt-BR!2sbr!4v1673719682902!5m2!1spt-BR!2sbr"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.925334248811!2d-46.7895059844241!3d-23.535187766512788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ceffa7ec544359%3A0xa698bb9ce4b07194!2sAv.%20Visc.%20de%20Nova%20Granada%2C%201165%20-%20Vila%20Osasco%2C%20Osasco%20-%20SP%2C%2006080-125!5e0!3m2!1spt-BR!2sbr!4v1675971958348!5m2!1spt-BR!2sbr"
           width="100%"
           height="100%"
         />
