@@ -1,8 +1,8 @@
-import React from 'react'
-import { FaFacebookF } from 'react-icons/fa'
-import { FaInstagram } from 'react-icons/fa'
-import { FaWhatsapp } from 'react-icons/fa'
-import * as S from './styles'
+import React from "react";
+import { FaFacebookF } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
+import * as S from "./styles";
 
 const Footer = () => {
   return (
@@ -35,7 +35,7 @@ const Footer = () => {
             <FaInstagram />
           </S.IconI>
           <S.IconW
-            href="https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2Fmessage%2FTHHX7ITEOM6DI1&e=AT0ca2Bg93G1XzHW8IGFvBf2KmRPe85QGBmttPoqaLAFS3XZR9T2bCZ3a5aNxZmj5p5WWQ8sZWEjZEf8cXUxsDI8C5CTn6X1l43bwvlebWGmrB12&s=1"
+            href="https://api.whatsapp.com/message/THHX7ITEOM6DI1?autoload=1&app_absent=0"
             target="_blank"
           >
             <FaWhatsapp />
@@ -44,7 +44,7 @@ const Footer = () => {
         <S.Telephone>Telefone (11) 95780-42127</S.Telephone>
       </S.General>
     </S.Container>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
