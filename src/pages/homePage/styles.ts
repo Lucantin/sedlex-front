@@ -81,7 +81,7 @@ export const Button = styled.a`
 
 export const WrapperBottomInfo = styled.div`
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   justify-content: center;
   width: 100%;
   height: 100%;
