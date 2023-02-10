@@ -30,7 +30,7 @@ export const AboutMe = styled.p`
   margin-top: 1em;
   text-align: center;
   opacity: 0.5;
-  font-size: 15px;
+  font-size: 12px;
 `;
 
 export const CopyRight = styled.p`
