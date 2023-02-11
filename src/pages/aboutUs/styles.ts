@@ -68,3 +68,8 @@ export const Content = styled.p`
 export const Button = styled.button`
   cursor: pointer;
 `;
+
+export const Li = styled.li`
+  color: #55606e;
+  padding: 1rem;
+`;

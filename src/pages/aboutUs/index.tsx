@@ -34,15 +34,17 @@ export const AboutUs = () => {
         <S.WrapperInformation>
           <S.Title>Sobre nós</S.Title>
           <S.Content>
-            Eu tô passando na quebrada em cima da Ducati A loira na garupa muito
-            linda, muito gata Já acostumada a meter fuga na polícia Memo de
-            robozão, passo no canto da lombada A NASA tá sabendo quem é esses
-            cara Que pilota muito, de cabelo verde E já tá querendo assinar
-            contrato É os vilão descontrolado que pilota os foguete Lá na
-            marginal tipo Need for Speed Quem é esses maluco passando igual uma
-            bala? Passou pela CD, passou pela viatura Nem o radar móvel decifrou
-            a nossa placa
+            A Sedlex é uma empresa de serviços de manutenção e elétrica que
+            possui amplo conhecimento na área com foco no desenvolvimento de
+            soluções de acordo com as necessidades apresentadas pelo mercado.
+            Prezamos sempre pelo bom atendimento, segurança e responsabilidade
+            nos serviços. Temos uma equipe altamente qualificada, com ampla
+            experiência na área.
           </S.Content>
+          <S.Li>Centrais de alarmes;</S.Li>
+          <S.Li>Motores de portão;</S.Li>
+          <S.Li>Bombas hidráulicas;</S.Li>
+          <S.Li>Centrais de monitoramento CFTV</S.Li>
         </S.WrapperInformation>
         <S.WrapperInformation>
           <S.Title>História</S.Title>
