@@ -41,7 +41,7 @@ const Footer = () => {
             <FaWhatsapp />
           </S.IconW>
         </S.SubTitle>
-        <S.Telephone>Telefone (11) 95780-42127</S.Telephone>
+        <S.Telephone>Telefone (11) 95780-4212</S.Telephone>
       </S.General>
     </S.Container>
   );

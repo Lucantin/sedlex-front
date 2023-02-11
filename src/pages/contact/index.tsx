@@ -1,41 +1,41 @@
-import { useState } from 'react'
-import emailjs from '@emailjs/browser'
-import * as S from './styles'
-import { ToastContainer, toast } from 'react-toastify'
-import 'react-toastify/dist/ReactToastify.css'
+import { useState } from "react";
+import emailjs from "@emailjs/browser";
+import * as S from "./styles";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export const Contact = () => {
-  const [name, setName] = useState('')
-  const [email, setEmail] = useState('')
-  const [message, setMessage] = useState('')
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
 
   function sendEmail(e: { preventDefault: () => void }) {
-    e.preventDefault()
+    e.preventDefault();
 
     const templateParams = {
       from_name: name,
       message: message,
       email: email,
-    }
+    };
 
     emailjs
       .send(
-        'service_d56jjho',
-        'template_tqptyuo',
+        "service_padpm0r",
+        "template_u9br6q1",
         templateParams,
-        '4wHZi7KaoGvAyI-HY',
+        "ICg-rBMjiVTn_s8Oj"
       )
       .then(
         (res) => {
-          toast.success('E-mail enviado')
-          setName('')
-          setEmail('')
-          setMessage('')
+          toast.success("E-mail enviado");
+          setName("");
+          setEmail("");
+          setMessage("");
         },
         (err) => {
-          toast.error('Algo deu errado!')
-        },
-      )
+          toast.error("Algo deu errado!");
+        }
+      );
   }
 
   return (
@@ -75,5 +75,5 @@ export const Contact = () => {
         />
       </S.WrapperMap>
     </S.Container>
-  )
-}
+  );
+};
